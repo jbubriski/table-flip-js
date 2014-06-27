@@ -1,9 +1,9 @@
 (function (self) {
   "use strict";
-  if ((typeof console !== 'undefined') && (typeof console.warn === 'function')) {
-    var warn = window.console.warn;
-    self['(╯°□°）╯︵ ┻━┻'] = Function.prototype.bind.call(warn, console);
-    window.console.warn = undefined;
+  if ((typeof console !== 'undefined') && (typeof console.error === 'function')) {
+    var error = window.console.error;
+    self['(╯°□°）╯︵ ┻━┻'] = Function.prototype.bind.call(error, console);
+    window.console.error = undefined;
   } else {
     self['(╯°□°）╯︵ ┻━┻'] = function () {}
   }
