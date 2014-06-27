@@ -10,4 +10,6 @@ Replaces `console.error` with less-vague name
 
 ## Credit
 
+Based on [ಠ_ಠ](https://github.com/abeisgreat/-_-.js].
+
 This was Dave's idea.
